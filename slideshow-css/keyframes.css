@@ -1,0 +1,262 @@
+#show {
+	width: auto;
+	position: relative;
+	height: auto;
+}
+
+#show .slide {
+	border: 10px solid #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.img1 {
+	animation: img1 20s infinite;
+	-o-animation: img1 20s infinite;
+	-moz-animation: img1 20s infinite;
+	-webkit-animation: img1 20s infinite;
+}
+
+@-webkit-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+.img2 {
+	animation: img2 20s infinite;
+	-o-animation: img2 20s infinite;
+	-moz-animation: img2 20s infinite;
+	-webkit-animation: img2 20s infinite;
+}
+
+.img3 {
+	animation: img3 20s infinite;
+	-o-animation: img3 20s infinite;
+	-moz-animation: img3 20s infinite;
+	-webkit-animation: img3 20s infinite;
+}
+
+.img4 {
+	animation: img4 20s infinite;
+	-o-animation: img4 20s infinite;
+	-moz-animation: img4 20s infinite;
+	-webkit-animation: img4 20s infinite;
+}
+
+.img5 {
+	animation: img5 20s infinite;
+	-o-animation: img5 20s infinite;
+	-moz-animation: img5 20s infinite;
+	-webkit-animation: img5 20s infinite;
+}
+
+@-webkit-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img5 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@keyframes img5 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes img5 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
