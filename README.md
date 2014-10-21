@@ -1,10 +1,14 @@
-Web snippets for quick front-end dev interview tasks
-===
+##### Questions for quick front-end dev interview tasks
+####### Code samples are only for reference and are opinionated.
 
-* Draw circle using CSS: [Code](https://github.com/enaqx/web-yay/tree/master/circle-css)
-* Draw circle using canvas: [Code](https://github.com/enaqx/web-yay/tree/master/circle-canvas)
-* Write simple slideshow using CSS: [Code](https://github.com/enaqx/web-yay/tree/master/slideshow-css)
-* Write simple slideshow using jQuery: [Code](https://github.com/enaqx/web-yay/tree/master/slideshow-jq)
+* Concatenate values in text field. [Code](https://github.com/enaqx/web-yay/tree/master/concate-two-field)
+* Reverse string in text field
+* Measure time taken by a function to execute
+* Draw circle using CSS. [Code](https://github.com/enaqx/web-yay/tree/master/circle-css)
+* Draw circle using canvas. [Code](https://github.com/enaqx/web-yay/tree/master/circle-canvas)
+* Write simple slideshow using CSS. [Code](https://github.com/enaqx/web-yay/tree/master/slideshow-css)
+* Write simple slideshow using jQuery. [Code](https://github.com/enaqx/web-yay/tree/master/slideshow-jq)
+* Create simple barchart using d3
 
 
 References: 
