@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+istanbus-web-frontend.iml
+sitemap.xml
+*.log
