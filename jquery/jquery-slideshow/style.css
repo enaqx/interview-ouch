@@ -8,12 +8,12 @@ body {
 	margin: 0px auto;
 	padding: 30px 0;
 	position: relative;
-}	
+}
 
-#content > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#content > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }

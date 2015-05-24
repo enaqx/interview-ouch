@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>WebYay! jQuery - Slideshow</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <div>
+     <img src="img/img1.jpg">
+    </div>
+    <div>
+     <img src="img/img2.jpg">
+    </div>
+    <div>
+     <img src="img/img3.jpg">
+    </div>
+  </div>
+
+  <script>
+    $("#content > div:gt(0)").hide();
+
+    setInterval(function() {
+      $('#content > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#content');
+    },  3000);
+  </script>
+</body>
+</html>

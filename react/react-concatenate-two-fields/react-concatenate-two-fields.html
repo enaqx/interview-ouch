@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebYay! React - Concatenate Two Fields</title>
+  <script src="http://fb.me/react-0.13.0.js"></script>
+  <script src="http://fb.me/JSXTransformer-0.13.0.js"></script>
+</head>
+<body>
+<script type="text/jsx">
+
+
+  var ConcateTwoField = React.createClass({
+    getInitialState: function() {
+      return {
+        field1: this.props.value1,
+        field2: this.props.value2
+      };
+    },
+
+    onChangeField1: function(e) {
+      this.setState({field1: e.target.value});
+    },
+
+    onChangeField2: function(e) {
+      this.setState({field2: e.target.value});
+    },
+
+    render: function() {
+      return (
+        <form>
+          <input
+            onChange={this.onChangeField1}
+            value = {this.state.field1} /> +&nbsp;
+          <input
+            onChange={this.onChangeField2}
+            value = {this.state.field2} /> =&nbsp;
+          {this.state.field1 + this.state.field2}<p />
+        </form>
+      );
+    }
+  });
+
+  React.renderComponent(
+    <ConcateTwoField value1='one ' value2 = 'two'/>,
+    document.body);
+
+
+</script>
+</body>
+</html>
