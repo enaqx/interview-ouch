@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head></head><body></body><script>
+
+
+/**
+ * Question: Get all nodes of DOM tress recursively.
+ */
+
+
+function getDOMNodeChilds(node) {
+  if (node == null) return;
+  for (var i = 0; i < node.childNodes.length; i++) {
+  	console.log(node.childNodes[i]);
+    getDOMNodeChilds(node.childNodes[i]);
+  }
+}
+
+getDOMNodeChilds(document);
+
+
+</script></html>

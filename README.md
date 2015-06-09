@@ -1,5 +1,5 @@
 ##### Samples for quick front-end dev interview tasks
-<sub><sup> Code samples for reference only. There are different ways to solve one question.</sub></sup>
+<sub>Code samples for reference only. There are different ways to solve one question.</sup>
 
 
 Frontend Iterview References:
