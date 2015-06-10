@@ -10,7 +10,7 @@
 function getDOMNodeChilds(node) {
   if (node == null) return;
   for (var i = 0; i < node.childNodes.length; i++) {
-  	console.log(node.childNodes[i]);
+    console.log(node.childNodes[i]);
     getDOMNodeChilds(node.childNodes[i]);
   }
 }
