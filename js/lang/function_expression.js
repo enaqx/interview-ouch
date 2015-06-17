@@ -11,6 +11,6 @@ function map(func, array) {
   for (var i = 0; i < array.length; i++)
     result[i] = func(array[i]);
   return result;
-};
+}
 
 console.log(map(function(x) { return x * x }, [2, 3, 4, 5]));

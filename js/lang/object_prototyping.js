@@ -2,7 +2,6 @@
  * Question: Describe object prototyping in JavaScript.
  */
 
-var util = require('util');
 
 /* Lets have some number variable. */
 var num = 3;
@@ -20,7 +19,7 @@ console.log(num.__proto__); // --> Number
 Number.prototype.square = function() {
   var value = this.valueOf();
   return value * value;
-}
+};
 
 /* And apply this method on our number and chain them */
 console.log(num.square()); // -> 9
