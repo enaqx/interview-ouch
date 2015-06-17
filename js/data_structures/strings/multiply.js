@@ -3,4 +3,4 @@
  */
 
 var repeat = 5;
-console.log(Array(++repeat).join('string'));
+console.log(new Array(++repeat).join('string'));

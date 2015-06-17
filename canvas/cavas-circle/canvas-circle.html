@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>WebYay! Canvas - Circle</title>
-</head>
-
-<body>
-
-<canvas id="circle" width="200" height="200" style="solid #ddd;">
+<html><head></head><body>
+<canvas id="circle" width="200" height="200" style="solid: #ddd;">
 Your browser does not support the HTML5 canvas tag.</canvas>
-
-<script>
-
-
-	var c = document.getElementById('circle');
-	var ctx = c.getContext('2d');
-	ctx.beginPath();
-	ctx.arc(100, 100, 100, 0, 2 * Math.PI);
-	ctx.stroke();
+</body><script>
 
 
-</script>
+/**
+ * Question: Draw circle using canvas.
+ */
 
-</body>
-</html>
+
+var c = document.getElementById('circle');
+var ctx = c.getContext('2d');
+ctx.beginPath();
+ctx.arc(100, 100, 100, 0, 2 * Math.PI);
+ctx.stroke();
+
+
+
+</script></html>

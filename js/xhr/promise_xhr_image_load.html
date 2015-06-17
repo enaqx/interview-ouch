@@ -40,8 +40,7 @@ var myImage = new Image();
 /* Call the function with the URL we want to load. */
 var imgURL = 'http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png';
 imgLoad(imgURL).then(function(response) {
-  var imageURL = window.URL.createObjectURL(response);
-  myImage.src = imageURL;
+  myImage.src = window.URL.createObjectURL(response);
   body.appendChild(myImage);
 }, function(Error) {
   console.log(Error);

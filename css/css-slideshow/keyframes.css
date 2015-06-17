@@ -1,26 +1,26 @@
 #show {
-	width: auto;
-	position: relative;
-	height: auto;
+  width: auto;
+  position: relative;
+  height: auto;
 }
 
 #show .slide {
-	border: 10px solid #fff;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: auto;
-	height: auto;
-	overflow: hidden;
-	text-align: center;
+  border: 10px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
 }
 
 
 .img1 {
-	animation: img1 20s infinite;
-	-o-animation: img1 20s infinite;
-	-moz-animation: img1 20s infinite;
-	-webkit-animation: img1 20s infinite;
+  animation: img1 20s infinite;
+  -o-animation: img1 20s infinite;
+  -moz-animation: img1 20s infinite;
+  -webkit-animation: img1 20s infinite;
 }
 
 @-webkit-keyframes img1 {
@@ -66,10 +66,10 @@
 }
 
 .img2 {
-	animation: img2 20s infinite;
-	-o-animation: img2 20s infinite;
-	-moz-animation: img2 20s infinite;
-	-webkit-animation: img2 20s infinite;
+  animation: img2 20s infinite;
+  -o-animation: img2 20s infinite;
+  -moz-animation: img2 20s infinite;
+  -webkit-animation: img2 20s infinite;
 }
 
 @-webkit-keyframes img2 {
@@ -115,10 +115,10 @@
 }
 
 .img3 {
-	animation: img3 20s infinite;
-	-o-animation: img3 20s infinite;
-	-moz-animation: img3 20s infinite;
-	-webkit-animation: img3 20s infinite;
+  animation: img3 20s infinite;
+  -o-animation: img3 20s infinite;
+  -moz-animation: img3 20s infinite;
+  -webkit-animation: img3 20s infinite;
 }
 
 @-webkit-keyframes img3 {

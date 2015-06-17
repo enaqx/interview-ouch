@@ -7,15 +7,15 @@
  */
 
 
-function getDOMNodeChilds(node) {
+function getDOMNodeChildren(node) {
   if (node == null) return;
   for (var i = 0; i < node.childNodes.length; i++) {
     console.log(node.childNodes[i]);
-    getDOMNodeChilds(node.childNodes[i]);
+    getDOMNodeChildren(node.childNodes[i]);
   }
 }
 
-getDOMNodeChilds(document);
+getDOMNodeChildren(document);
 
 
 </script></html>
